@@ -1,0 +1,44 @@
+.order-list-container {
+    padding: 20px;
+    background: linear-gradient(to right, #f9f9f9, #e0eafc);
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-list-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.order-table th, .order-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #555;
+}
+
+.order-table th {
+    background: #2575fc;
+    color: white;
+    font-weight: bold;
+}
+
+.order-table tr:hover {
+    background: #f4f4f4;
+}
