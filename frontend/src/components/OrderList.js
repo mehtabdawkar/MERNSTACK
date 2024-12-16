@@ -16,7 +16,7 @@ function OrderList() {
             const query = orderId 
                 ? `?orderId=${orderId}` 
                 : `?email=${email}`;
-            const response = await fetch(`http://localhost:5000/api/orders${query}`);
+            const response = await fetch(`https://mernstack-xym0.onrender.com/api/orders${query}`);
             
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
